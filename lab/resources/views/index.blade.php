@@ -94,16 +94,28 @@
                 <h2 class="page-header">Books recommended</h2>
             </div>
             <div class="col-md-6">
-                <p>《 Algorithms 》</p>
+                <h3><i>Algorithms</i></h3>
                 <ul>
-                    <li>Fourth Edition</li>
-                    <li>Robert Sedgewick and Kevin Wayne</li>
+                    <li>FOURTH Edition</li>
+                    <li>Robert Sedgewick| Kevin Wayne</li>
                     <li>Princeton University</li>
                 </ul>
-		<p>This book includes almost all the basic algorithms. It is implemented by JAVA and easy to understand.</p>
+				<p>This book is intended to survey the most important computer algorithms in use today, and to teach fundamental techniques to the growing number of people in need of knowing them. It is intended for use as a textbook for a second course in computer science, after students have acquired basic programming skills and familiarity with computer systems. The book also may be useful for self-study or as a reference for people engaged in the development of computer systems or applications programs, since it contains implemen- tations of useful algorithms and detailed information on performance characteristics and clients. The broad perspective taken makes the book an appropriate introduction to the field.</p>
             </div>
             <div class="col-md-6">
-                <a href="http://algs4.cs.princeton.edu/home/"><img class="img-responsive" src="http://zijing.us/wordpress/wp-content/uploads/2017/07/book1.jpg" alt="" style="width:300px"></a>
+                <a href="http://algs4.cs.princeton.edu/home/"><img class="img-responsive" src="http://zijing.us/wordpress/wp-content/uploads/2018/01/book_algorithm.jpg" alt="" style="width:200px; margin:50px"></a>
+            </div>
+            <div class="col-md-6">
+                <h3><i>DATABASE SYSTEM CONCEPTS</i></h3>
+                <ul>
+                    <li>FIFTH Edition</li>
+                    <li>Abraham Silberschatz| Henry F.Korth| S.Sudarhan</li>
+                    <li>Published by McGraw-Hill</li>
+                </ul>
+				<p>Database management has evolved from a specialized computer application to a central component of a modern computing environment, and, as a result, knowl- edge about database systems has become an essential part of an education in com- puter science. In this text, we present the fundamental concepts of database manage- ment. These concepts include aspects of database design, database languages, and database-system implementation.</p>
+            </div>
+            <div class="col-md-6">
+                <a href="https://www.amazon.com/Database-System-Concepts-Abraham-Silberschatz/dp/0072958863/ref=sr_1_3?ie=UTF8&qid=1515354821&sr=8-3&keywords=database+concepts+5th+edition"><img class="img-responsive" src="http://zijing.us/wordpress/wp-content/uploads/2018/01/book_dbms.jpg" alt="" style="width:200px; margin:50px; "></a>
             </div>
         </div>
         <!-- /.row -->

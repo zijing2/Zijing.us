@@ -29,7 +29,7 @@
             <div class="col-md-4">
                 <h3>Contact Details</h3>
                 <p>
-                    490 Pavonia ave<br>Jersey city, NJ 07306<br>
+                    68 Leonard St<br>Jersey city, NJ 07307<br>
                 </p>
                 <p><i class="fa fa-phone"></i> 
                     <abbr title="Phone">P</abbr>: (201) 736-5027</p>
@@ -60,7 +60,7 @@
         <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
         <div class="row">
             <div class="col-md-8">
-                <h3>Send us a Message</h3>
+                <h3>Send me a Message</h3>
                 <form name="sentMessage" id="contactForm" novalidate>
                     <div class="control-group form-group">
                         <div class="controls">
