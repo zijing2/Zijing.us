@@ -1,0 +1,63 @@
+We've now got a server!
+Your routes will be running on http://localhost:3000
+We've now got a server!
+Your routes will be running on http://localhost:6555
+We've now got a server!
+Your routes will be running on http://localhost:6555
+We've now got a server!
+Your routes will be running on http://localhost:6556
+We've now got a server!
+Your routes will be running on http://localhost:3000
+We've now got a server!
+Your routes will be running on http://localhost:6555
+We've now got a server!
+Your routes will be running on http://localhost:3000
+We've now got a server!
+Your routes will be running on http://localhost:6555
+We've now got a server!
+Your routes will be running on http://localhost:6555
+We've now got a server!
+Your routes will be running on http://localhost:3000
+We've now got a server!
+Your routes will be running on http://localhost:6555
+We've now got a server!
+Your routes will be running on http://localhost:6555
+We've now got a server!
+Your routes will be running on http://localhost:3000
+We've now got a server!
+Your routes will be running on http://localhost:6555
+We've now got a server!
+Your routes will be running on http://localhost:3000
+We've now got a server!
+Your routes will be running on http://localhost:3000
+We've now got a server!
+Your routes will be running on http://localhost:6555
+We've now got a server!
+Your routes will be running on http://localhost:6555
+We've now got a server!
+Your routes will be running on http://localhost:6555
+We've now got a server!
+Your routes will be running on http://localhost:3000
+We've now got a server!
+Your routes will be running on http://localhost:6555
+
+<--- Last few GCs --->
+
+[21521:0x3fc2e40]      253 ms: Scavenge 7.8 (13.5) -> 7.1 (14.0) MB, 1.2 / 0.0 ms  allocation failure 
+[21521:0x3fc2e40]      340 ms: Scavenge 8.7 (14.0) -> 7.7 (19.0) MB, 1.2 / 0.0 ms  allocation failure 
+[21521:0x3fc2e40]      540 ms: Scavenge 12.8 (20.0) -> 10.5 (20.5) MB, 1.4 / 0.0 ms  allocation failure 
+[21521:0x3fc2e40] 136974312 ms: Scavenge 14.9 (22.5) -> 13.0 (18.5) MB, 32683695.9 / 125270.2 ms  allocation failure 
+
+
+<--- JS stacktrace --->
+
+We've now got a server!
+Your routes will be running on http://localhost:6555
+We've now got a server!
+Your routes will be running on http://localhost:6555
+We've now got a server!
+Your routes will be running on http://localhost:6555
+We've now got a server!
+Your routes will be running on http://localhost:3000
+We've now got a server!
+Your routes will be running on http://localhost:6555

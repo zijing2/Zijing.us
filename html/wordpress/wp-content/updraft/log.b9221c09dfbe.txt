@@ -1,0 +1,272 @@
+0000.000 (0) Opened log file at time: Mon, 25 Dec 2017 13:57:27 +0000 on http://zijing.us/wordpress
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.13.5 WP: 4.8.4 PHP: 7.0.16 (apache2handler, Linux ip-172-31-47-185 4.9.32-15.41.amzn1.x86_64 #1 SMP Thu Jun 22 06:20:54 UTC 2017 x86_64) MySQL: 5.6.36 WPLANG: en_US Server: Apache/2.4.25 (Amazon) PHP/7.0.16 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18M | 4M) multisite: N openssl: OpenSSL 1.0.1k-fips 8 Jan 2015 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 1537 MB
+0000.008 (0) Tasks: Backup files: 1 (schedule: fortnightly) Backup DB:  (schedule: fortnightly)
+0000.011 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.020 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1512999766, seconds_ago=1210481)
+0000.026 (0) Set semaphore last lock (fd) time to 2017-12-25 13:57:27
+0000.027 (0) Semaphore lock (fd) complete
+0000.035 (0) Backup run: resumption=0, nonce=b9221c09dfbe, begun at=1514210247 (0s ago), job type=backup
+0000.039 (0) Scheduling a resumption (1) after 300 seconds (1514210547) in case this run gets aborted
+0000.050 (0) Checking if we have a zip executable available
+0000.053 (0) Testing: /usr/bin/zip
+0000.068 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.072 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.074 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.075 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.076 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.081 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.083 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.093 (0) Working binary zip found: /usr/bin/zip
+0000.099 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.100 (0) Creation of backups of directories: beginning
+0000.106 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.238 (0) Total entities for the zip file: 295 directories, 2374 files (0 skipped as non-modified), 31 MB
+0000.242 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.245 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.248 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.251 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.254 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.255 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.8 MB, 2374 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.576 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: size is now: 5.90 MB
+0001.581 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 600 files added (on-disk size: 6000.3 KB)
+0001.584 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 700 files added (on-disk size: 6000.3 KB)
+0001.587 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 800 files added (on-disk size: 6000.3 KB)
+0001.590 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 900 files added (on-disk size: 6000.3 KB)
+0001.592 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 1000 files added (on-disk size: 6000.3 KB)
+0001.595 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.8 MB, 2374 files batched, 501 (1002) added so far); re-opening (prior size: 6000.3 KB)
+0001.996 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 1100 files added (on-disk size: 6803.9 KB)
+0001.999 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 1200 files added (on-disk size: 6803.9 KB)
+0002.003 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 1300 files added (on-disk size: 6803.9 KB)
+0002.005 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 1400 files added (on-disk size: 6803.9 KB)
+0002.008 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 1500 files added (on-disk size: 6803.9 KB)
+0002.011 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 2374 files batched, 501 (1503) added so far); re-opening (prior size: 6803.9 KB)
+0002.448 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: size is now: 8.40 MB
+0002.453 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 1600 files added (on-disk size: 8563.4 KB)
+0002.456 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 1700 files added (on-disk size: 8563.4 KB)
+0002.459 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 1800 files added (on-disk size: 8563.4 KB)
+0002.461 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 1900 files added (on-disk size: 8563.4 KB)
+0002.464 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 2000 files added (on-disk size: 8563.4 KB)
+0002.466 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 2374 files batched, 501 (2004) added so far); re-opening (prior size: 8563.4 KB)
+0002.916 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 2100 files added (on-disk size: 9900.2 KB)
+0002.919 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 2200 files added (on-disk size: 9900.2 KB)
+0002.923 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip.tmp: 2300 files added (on-disk size: 9900.2 KB)
+0003.461 (0) Created plugins zip (0) - 10616.3 KB in 3.4 s (3165.3 KB/s) (sha1: c0d469f5bcaccd2ddd0294f9f7d7952c716ead0f, sha256: 1f7891103d3a5aa3dbcf71493e91f6735eac26e9fd2284c89a35e38cf75077da)
+0003.467 (0) Beginning creation of dump of themes (split every: 400 MB)
+0003.501 (0) Total entities for the zip file: 56 directories, 288 files (0 skipped as non-modified), 7.8 MB
+0003.504 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.507 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.848 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-themes.zip.tmp: size is now: 5.90 MB
+0003.925 (0) Created themes zip (0) - 6069.7 KB in 0.5 s (13310.8 KB/s) (sha1: 0ff8043bd3b12d20799619e16a24a7bdadd9d4cc, sha256: e65ecdd8424a10e5904b5a95c3d9f08ef6d20b95e047bffa1fc4622188163843)
+0003.931 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0003.932 (0) Looking for candidates to back up in: /var/www/html/wordpress/wp-content/uploads
+0003.934 (0) finding files: 2017: adding to list (1)
+0003.935 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0003.954 (0) Total entities for the zip file: 9 directories, 161 files (0 skipped as non-modified), 145.3 MB
+0003.957 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 161 files batched, 18 (18) added so far); re-opening (prior size: 0 KB)
+0004.280 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-uploads.zip.tmp: size is now: 25.10 MB
+0004.285 (0) A useful amount of data was added after this amount of zip processing: 0.9 s (normalised: 0.9 s, rate: 29958.1 KB/s)
+0004.288 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.85898995399475, normalised_time=0.85452597632409, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=184062748)
+0004.293 (0) Zip: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-uploads.zip.tmp: 100 files added (on-disk size: 25717.7 KB)
+0006.256 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-uploads.zip.tmp: size is now: 144.90 MB
+0009.765 (0) Created uploads zip (0) - 148408.7 KB in 5.8 s (25470 KB/s) (sha1: 2422710beb7dac06a348120bcc90f6678b3e8021, sha256: a0054ea3ff0da466b1e959443bc9b2ee85a3f122f365277607a817b863578cae)
+0009.774 (0) Beginning backup of other directories found in the content directory (index: 0)
+0009.775 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0009.776 (0) Looking for candidates to back up in: /var/www/html/wordpress/wp-content
+0009.779 (0) finding files: updraft: skipping: this is the updraft directory
+0009.782 (0) finding files: themes: skipping: this is the themes directory
+0009.783 (0) finding files: uploads: skipping: this is the uploads directory
+0009.784 (0) finding files: plugins: skipping: this is the plugins directory
+0009.787 (0) finding files: index.php: adding to list (1)
+0009.788 (0) finding files: upgrade: skipping: excluded by options
+0009.800 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0009.868 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-others.zip.tmp: size is now: 0.00 MB
+0009.876 (0) Created others zip (0) - 0.2 KB in 0.1 s (2.4 KB/s) (sha1: fd7c7cf09354ac118bfee8cd36b819472b132c07, sha256: e0a1d1b496866fe27a77617fd6d0ccef7b3c46ee3f7568649602b15c58c5f394)
+0009.884 (0) Saving backup status to database (elements: 8)
+0009.895 (0) Beginning creation of database dump (WordPress DB)
+0009.904 (0) Testing: /usr/bin/mysqldump
+0010.003 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1212 bytes total)
+0010.009 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0010.028 (0) Table wp_options: Total expected rows (approximate): 290
+0010.085 (0) Table wp_options: Total rows added: 293 in 0.05 seconds
+0010.088 (0) Table wp_options: finishing file (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_options.table.gz - 231.5 KB)
+0010.094 (0) Table wp_users: Total expected rows (approximate): 0
+0010.096 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0010.099 (0) Table wp_users: finishing file (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_users.table.gz - 0.6 KB)
+0010.107 (0) Table wp_usermeta: Total expected rows (approximate): 23
+0010.109 (0) Table wp_usermeta: Total rows added: 31 in 0.00 seconds
+0010.111 (0) Table wp_usermeta: finishing file (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_usermeta.table.gz - 1.4 KB)
+0010.118 (0) Table wp_commentmeta: Total expected rows (approximate): 104
+0010.121 (0) Table wp_commentmeta: Total rows added: 104 in 0.00 seconds
+0010.124 (0) Table wp_commentmeta: finishing file (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_commentmeta.table.gz - 4 KB)
+0010.130 (0) Table wp_comments: Total expected rows (approximate): 33
+0010.134 (0) Table wp_comments: Total rows added: 33 in 0.00 seconds
+0010.137 (0) Table wp_comments: finishing file (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_comments.table.gz - 11.2 KB)
+0010.143 (0) Table wp_links: Total expected rows (approximate): 0
+0010.146 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0010.148 (0) Table wp_links: finishing file (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_links.table.gz - 0.4 KB)
+0010.155 (0) Table wp_postmeta: Total expected rows (approximate): 1227
+0010.165 (0) Table wp_postmeta: Total rows added: 1250 in 0.01 seconds
+0010.167 (0) Table wp_postmeta: finishing file (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_postmeta.table.gz - 15 KB)
+0010.175 (0) Table wp_posts: Total expected rows (approximate): 765
+0010.232 (0) Table wp_posts: Total rows added: 849 in 0.06 seconds
+0010.236 (0) Table wp_posts: finishing file (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_posts.table.gz - 179.2 KB)
+0010.243 (0) Table wp_term_relationships: Total expected rows (approximate): 2089
+0010.252 (0) Table wp_term_relationships: Total rows added: 2120 in 0.01 seconds
+0010.254 (0) Table wp_term_relationships: finishing file (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_term_relationships.table.gz - 5.8 KB)
+0010.261 (0) Table wp_term_taxonomy: Total expected rows (approximate): 39
+0010.264 (0) Table wp_term_taxonomy: Total rows added: 74 in 0.00 seconds
+0010.267 (0) Table wp_term_taxonomy: finishing file (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_term_taxonomy.table.gz - 1 KB)
+0010.272 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0010.276 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0010.279 (0) Table wp_termmeta: finishing file (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_termmeta.table.gz - 0.4 KB)
+0010.285 (0) Table wp_terms: Total expected rows (approximate): 43
+0010.288 (0) Table wp_terms: Total rows added: 74 in 0.00 seconds
+0010.291 (0) Table wp_terms: finishing file (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_terms.table.gz - 1.4 KB)
+0010.296 (0) Table wp_statistics_exclusions: Total expected rows (approximate): 0
+0010.300 (0) Table wp_statistics_exclusions: Total rows added: 0 in 0.00 seconds
+0010.302 (0) Table wp_statistics_exclusions: finishing file (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_statistics_exclusions.table.gz - 0.3 KB)
+0010.308 (0) Table wp_statistics_historical: Total expected rows (approximate): 0
+0010.311 (0) Table wp_statistics_historical: Total rows added: 0 in 0.00 seconds
+0010.312 (0) Table wp_statistics_historical: finishing file (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_statistics_historical.table.gz - 0.3 KB)
+0010.320 (0) Table wp_statistics_pages: Total expected rows (approximate): 967
+0010.328 (0) Table wp_statistics_pages: Total rows added: 967 in 0.01 seconds
+0010.331 (0) Table wp_statistics_pages: finishing file (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_statistics_pages.table.gz - 7.8 KB)
+0010.339 (0) Table wp_statistics_search: Total expected rows (approximate): 572
+0010.344 (0) Table wp_statistics_search: Total rows added: 585 in 0.00 seconds
+0010.347 (0) Table wp_statistics_search: finishing file (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_statistics_search.table.gz - 4.5 KB)
+0010.353 (0) Table wp_statistics_useronline: Total expected rows (approximate): 0
+0010.356 (0) Table wp_statistics_useronline: Total rows added: 0 in 0.00 seconds
+0010.359 (0) Table wp_statistics_useronline: finishing file (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_statistics_useronline.table.gz - 0.4 KB)
+0010.364 (0) Table wp_statistics_visit: Total expected rows (approximate): 182
+0010.368 (0) Table wp_statistics_visit: Total rows added: 202 in 0.00 seconds
+0010.371 (0) Table wp_statistics_visit: finishing file (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_statistics_visit.table.gz - 3 KB)
+0010.377 (0) Table wp_statistics_visitor: Total expected rows (approximate): 2642
+0010.415 (0) Table wp_statistics_visitor: Total rows added: 2757 in 0.04 seconds
+0010.418 (0) Table wp_statistics_visitor: finishing file (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_statistics_visitor.table.gz - 43.4 KB)
+0010.428 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_options.table.gz (1/19): adding to final database dump
+0010.475 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_users.table.gz (2/19): adding to final database dump
+0010.477 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_usermeta.table.gz (3/19): adding to final database dump
+0010.480 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_commentmeta.table.gz (4/19): adding to final database dump
+0010.483 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_comments.table.gz (5/19): adding to final database dump
+0010.486 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_links.table.gz (6/19): adding to final database dump
+0010.488 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_postmeta.table.gz (7/19): adding to final database dump
+0010.494 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_posts.table.gz (8/19): adding to final database dump
+0010.537 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_term_relationships.table.gz (9/19): adding to final database dump
+0010.542 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_term_taxonomy.table.gz (10/19): adding to final database dump
+0010.544 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_termmeta.table.gz (11/19): adding to final database dump
+0010.546 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_terms.table.gz (12/19): adding to final database dump
+0010.548 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_statistics_exclusions.table.gz (13/19): adding to final database dump
+0010.550 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_statistics_historical.table.gz (14/19): adding to final database dump
+0010.556 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_statistics_pages.table.gz (15/19): adding to final database dump
+0010.561 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_statistics_search.table.gz (16/19): adding to final database dump
+0010.564 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_statistics_useronline.table.gz (17/19): adding to final database dump
+0010.567 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_statistics_visit.table.gz (18/19): adding to final database dump
+0010.568 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db-table-wp_statistics_visitor.table.gz (19/19): adding to final database dump
+0010.581 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db.gz: finished writing out complete database file (480 KB)
+0010.599 (0) Total database tables backed up: 19 (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db.gz, size: 521395, sha256)
+0010.608 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0010.610 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0010.611 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0010.612 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-others.zip: others: This file has not yet been successfully uploaded: will queue
+0010.614 (0) backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db.gz: db: This file has not yet been successfully uploaded: will queue
+0010.615 (0) Saving backup history. Total backup size: 161.7 MB
+0010.619 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0010.625 (0) Cloud backup selection (1/1): dropbox (last)
+0010.630 (0) Beginning dispatch of backup to remote (dropbox)
+0010.632 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0010.651 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0011.198 (0) Dropbox quota usage: used=979.5 MB, total=2048 MB, available=1068.5 MB
+0011.201 (0) Dropbox: Attempt to upload: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip to: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip
+0012.064 (0) Dropbox chunked upload: 9.6 % uploaded (AAAAAAAAAOhTT_TKA-yNwg, 1048576, 6656 KB)
+0014.752 (0) Dropbox chunked upload: 72.3 % uploaded (AAAAAAAAAOhTT_TKA-yNwg, 7864320, 10240 KB)
+0016.627 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAOhTT_TKA-yNwg, 10871060, 10240 KB)
+0018.434 (0) Recording as successfully uploaded: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip (83cd916b1e31ca25764e479abbb04e75)
+0018.443 (0) Deleting local file: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip: OK
+0018.444 (0) Dropbox: File upload success (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-plugins.zip): 10616 KB in 7s (1465 KB/s)
+0018.683 (0) Dropbox quota usage: used=989.8 MB, total=2048 MB, available=1058.2 MB
+0018.686 (0) Dropbox: Attempt to upload: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-themes.zip to: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-themes.zip
+0021.019 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAOnWd9W2maQTgw, 6215356, 10240 KB)
+0022.503 (0) Recording as successfully uploaded: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-themes.zip (734942acaa5324a35bbb05e5a2e50b13)
+0022.511 (0) Deleting local file: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-themes.zip: OK
+0022.512 (0) Dropbox: File upload success (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-themes.zip): 6069 KB in 3s (1586 KB/s)
+0022.737 (0) Dropbox quota usage: used=995.8 MB, total=2048 MB, available=1052.2 MB
+0022.739 (0) Dropbox: Attempt to upload: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-uploads.zip to: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-uploads.zip
+0025.604 (0) Dropbox chunked upload: 6.9 % uploaded (AAAAAAAAAOoNqZlLqzORqQ, 10485760, 10240 KB)
+0028.892 (0) Dropbox chunked upload: 13.8 % uploaded (AAAAAAAAAOoNqZlLqzORqQ, 20971520, 10240 KB)
+0031.770 (0) Dropbox chunked upload: 20.7 % uploaded (AAAAAAAAAOoNqZlLqzORqQ, 31457280, 10240 KB)
+0035.015 (0) Dropbox chunked upload: 27.6 % uploaded (AAAAAAAAAOoNqZlLqzORqQ, 41943040, 10240 KB)
+0037.734 (0) Dropbox chunked upload: 34.5 % uploaded (AAAAAAAAAOoNqZlLqzORqQ, 52428800, 10240 KB)
+0041.639 (0) Dropbox chunked upload: 41.4 % uploaded (AAAAAAAAAOoNqZlLqzORqQ, 62914560, 10240 KB)
+0044.400 (0) Dropbox chunked upload: 48.3 % uploaded (AAAAAAAAAOoNqZlLqzORqQ, 73400320, 10240 KB)
+0047.662 (0) Dropbox chunked upload: 55.2 % uploaded (AAAAAAAAAOoNqZlLqzORqQ, 83886080, 10240 KB)
+0050.436 (0) Dropbox chunked upload: 62.1 % uploaded (AAAAAAAAAOoNqZlLqzORqQ, 94371840, 10240 KB)
+0053.850 (0) Dropbox chunked upload: 69 % uploaded (AAAAAAAAAOoNqZlLqzORqQ, 104857600, 10240 KB)
+0056.923 (0) Dropbox chunked upload: 75.9 % uploaded (AAAAAAAAAOoNqZlLqzORqQ, 115343360, 10240 KB)
+0060.372 (0) Dropbox chunked upload: 82.8 % uploaded (AAAAAAAAAOoNqZlLqzORqQ, 125829120, 10240 KB)
+0063.227 (0) Dropbox chunked upload: 89.7 % uploaded (AAAAAAAAAOoNqZlLqzORqQ, 136314880, 10240 KB)
+0066.611 (0) Dropbox chunked upload: 96.6 % uploaded (AAAAAAAAAOoNqZlLqzORqQ, 146800640, 10240 KB)
+0068.857 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAOoNqZlLqzORqQ, 151970472, 10240 KB)
+0069.874 (0) Recording as successfully uploaded: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-uploads.zip (197a5a6b2b2f84ffc16fb85da1f2f3f5)
+0069.894 (0) Deleting local file: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-uploads.zip: OK
+0069.898 (0) Dropbox: File upload success (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-uploads.zip): 148408 KB in 47s (3147 KB/s)
+0070.130 (0) Dropbox quota usage: used=1140.7 MB, total=2048 MB, available=907.3 MB
+0070.133 (0) Dropbox: Attempt to upload: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-others.zip to: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-others.zip
+0070.564 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAOvPXCrsoTopyg, 196, 10240 KB)
+0071.389 (0) Recording as successfully uploaded: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-others.zip (c9e58d713f86535a6ab1af3fb5006e5c)
+0071.401 (0) Deleting local file: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-others.zip: OK
+0071.404 (0) Dropbox: File upload success (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-others.zip): 0 KB in 1s (0 KB/s)
+0071.636 (0) Dropbox quota usage: used=1140.7 MB, total=2048 MB, available=907.3 MB
+0071.638 (0) Dropbox: Attempt to upload: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db.gz to: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db.gz
+0072.925 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAOxl-_wX1B35vQ, 521395, 10240 KB)
+0073.990 (0) Recording as successfully uploaded: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db.gz (47411c7af53688cfd9eb89c29d8d2ee1)
+0074.000 (0) Deleting local file: backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db.gz: OK
+0074.006 (0) Dropbox: File upload success (backup_2017-12-25-0857_zijing039s_tech_blog_b9221c09dfbe-db.gz): 509 KB in 2s (215 KB/s)
+0074.013 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0074.032 (0) Number of backup sets in history: 3; groups (db): 1
+0074.036 (0) Examining (for databases) backup set with group_id=0, nonce=b9221c09dfbe, datestamp=1514210247 (Dec 25 2017 13:57:27)
+0074.038 (0) This backup set is the backup set just made, so will not be deleted.
+0074.039 (0) Examining (for databases) backup set with group_id=0, nonce=7bdd3c697b0d, datestamp=1512999766 (Dec 11 2017 13:42:46)
+0074.043 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.045 (0) Examining (for databases) backup set with group_id=0, nonce=62dd60a42e2b, datestamp=1511789389 (Nov 27 2017 13:29:49)
+0074.046 (0) 1511789389: db: this set includes a database (backup_2017-11-27-0829_zijing039s_tech_blog_62dd60a42e2b-db.gz); db count is now 2
+0074.047 (0) 1511789389: db: over retain limit (2); will delete this database
+0074.049 (0) Delete file: backup_2017-11-27-0829_zijing039s_tech_blog_62dd60a42e2b-db.gz, service=dropbox
+0074.051 (0) Dropbox: request deletion: backup_2017-11-27-0829_zijing039s_tech_blog_62dd60a42e2b-db.gz
+0074.591 (0) Dropbox: delete succeeded
+0074.597 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0074.605 (0) Number of backup sets in history: 3; groups (files): 1
+0074.607 (0) Examining (for files) backup set with nonce=b9221c09dfbe, datestamp=1514210247 (Dec 25 2017 13:57:27)
+0074.609 (0) This backup set is the backup set just made, so will not be deleted.
+0074.610 (0) This backup set is the backup set just made, so will not be deleted.
+0074.611 (0) This backup set is the backup set just made, so will not be deleted.
+0074.611 (0) This backup set is the backup set just made, so will not be deleted.
+0074.611 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.612 (0) Examining (for files) backup set with nonce=7bdd3c697b0d, datestamp=1512999766 (Dec 11 2017 13:42:46)
+0074.618 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0074.620 (0) Examining (for files) backup set with nonce=62dd60a42e2b, datestamp=1511789389 (Nov 27 2017 13:29:49)
+0074.622 (0) plugins: over retain limit (2); will delete this file entity
+0074.624 (0) themes: over retain limit (2); will delete this file entity
+0074.630 (0) uploads: over retain limit (2); will delete this file entity
+0074.632 (0) others: over retain limit (2); will delete this file entity
+0074.634 (0) Delete file: backup_2017-11-27-0829_zijing039s_tech_blog_62dd60a42e2b-plugins.zip, service=dropbox
+0074.635 (0) Delete file: backup_2017-11-27-0829_zijing039s_tech_blog_62dd60a42e2b-themes.zip, service=dropbox
+0074.636 (0) Delete file: backup_2017-11-27-0829_zijing039s_tech_blog_62dd60a42e2b-uploads.zip, service=dropbox
+0074.638 (0) Delete file: backup_2017-11-27-0829_zijing039s_tech_blog_62dd60a42e2b-others.zip, service=dropbox
+0074.639 (0) Dropbox: request deletion: backup_2017-11-27-0829_zijing039s_tech_blog_62dd60a42e2b-plugins.zip
+0075.106 (0) Dropbox: delete succeeded
+0075.109 (0) Dropbox: request deletion: backup_2017-11-27-0829_zijing039s_tech_blog_62dd60a42e2b-themes.zip
+0075.679 (0) Dropbox: delete succeeded
+0075.681 (0) Dropbox: request deletion: backup_2017-11-27-0829_zijing039s_tech_blog_62dd60a42e2b-uploads.zip
+0076.179 (0) Dropbox: delete succeeded
+0076.181 (0) Dropbox: request deletion: backup_2017-11-27-0829_zijing039s_tech_blog_62dd60a42e2b-others.zip
+0076.767 (0) Dropbox: delete succeeded
+0076.772 (0) This backup set is now empty; will remove from history
+0076.775 (0) Deleting log file (log.62dd60a42e2b.txt)
+0076.779 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0076.785 (0) Resume backup (b9221c09dfbe, 0): finish run
+0076.793 (0) Decremented the semaphore (fd) by 1
+0076.798 (0) Semaphore (fd) unlocked
+0076.799 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0076.806 (0) No email will/can be sent - the user has not configured an email address.
+0076.807 (0) The backup apparently succeeded and is now complete

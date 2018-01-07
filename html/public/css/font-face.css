@@ -1,0 +1,9 @@
+@font-face {
+    font-family: '4114-Blaster';
+    src:url('fonts/4114-Blaster.ttf.woff') format('woff'),
+    url('fonts/4114-Blaster.ttf.svg#4114-Blaster') format('svg'),
+    url('fonts/4114-Blaster.ttf.eot'),
+    url('fonts/4114-Blaster.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
